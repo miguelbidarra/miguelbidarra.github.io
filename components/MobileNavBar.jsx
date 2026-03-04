@@ -24,6 +24,14 @@ const links = [
     path: "/work",
   },
   {
+    name: "case studies",
+    path: "/case-studies",
+  },
+  {
+    name: "insights",
+    path: "/insights",
+  },
+  {
     name: "contact",
     path: "/contact",
   },

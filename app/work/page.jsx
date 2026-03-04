@@ -28,28 +28,10 @@ import rebike from "@/public/assets/work/rebike.png";
 const projects = [
   {
     num: "01",
-    name: "Events Management System",
-    title: "Events Management System",
+    name: "Autonomous Forest Fire Detection System",
+    title: "Autonomous Forest Fire Detection System",
     description:
-      "An easy to use application to allocate volunteers to activities based on their availability. Full stack application with authentication and DB.",
-    stack: [
-      {
-        name: "Next.js",
-      },
-      {
-        name: "MongoDB",
-      },
-    ],
-    image: eventManagementSystem,
-    live: "https://next-esnsync.vercel.app/",
-    github: "/work",
-  },
-  {
-    num: "02",
-    name: "Wildfire Monitoring System",
-    title: "Wildfire Monitoring System",
-    description:
-      "A wireless sensing network used for detecting early stages of wildfires.",
+      "Designed and implemented a LoRa-based autonomous system architecture for early wildfire detection in remote areas. Featured distributed sensor nodes with real-time data aggregation, remote monitoring capabilities, and system integration from hardware to cloud backend. Master's degree capstone project.",
     stack: [
       {
         name: "LoRa",
@@ -58,46 +40,87 @@ const projects = [
         name: "IoT",
       },
       {
-        name: "MQTT",
+        name: "C/C++",
+      },
+      {
+        name: "RF Communication",
       },
     ],
     image: wildfireMonitoringSystem,
-    live: "/work",
-    github: "/work",
+    live: "#projects",
+    github: "https://github.com/miguelbidarra/forest-fire-detection",
   },
   {
-    num: "03",
-    name: "Volume Detection Application",
-    title: "Volume Detection Application",
-    description: "Computer vision application to determine volumes using a 3D camera.",
+    num: "02",
+    name: "Low-Power IoT Mesh Network",
+    title: "Low-Power IoT Mesh Network (1km Range)",
+    description:
+      "Engineered a 1km communication mesh network utilizing ESP32 microcontrollers with LoRa modulation. Analyzed LoRa parameters and physical limitations while optimizing for minimal power consumption. Application in distributed IoT sensor networks.",
     stack: [
       {
-        name: "Python",
+        name: "LoRa",
       },
       {
-        name: "Open3D",
+        name: "ESP32",
+      },
+      {
+        name: "C/C++",
+      },
+      {
+        name: "Firmware",
       },
     ],
     image: volumeDetectionApplication,
-    live: "/work",
-    github: "",
+    live: "#projects",
+    github: "https://github.com/miguelbidarra/iot-mesh-network",
   },
   {
-    num: "04",
-    name: "Rebike",
-    title: "Rebike",
-    description: "A second-hand bike marketplace.",
+    num: "03",
+    name: "Rebike - Bicycle Renting Service",
+    title: "Rebike - Bicycle Renting Service",
+    description:
+      "Founded and developed a second-hand bicycle renting service platform with full-stack web application. Features include fleet management, customer booking system, payment integration, and operational analytics. Future roadmap includes RAG system for intelligent database querying.",
     stack: [
       {
-        name: "Next.js",
+        name: "React",
+      },
+      {
+        name: "Node.js",
       },
       {
         name: "MongoDB",
       },
+      {
+        name: "AWS",
+      },
     ],
     image: rebike,
-    live: "https://rebike-remastered.vercel.app/",
-    github: "",
+    live: "#projects",
+    github: "https://github.com/miguelbidarra/rebike",
+  },
+  {
+    num: "04",
+    name: "5G Radio Unit Software",
+    title: "5G Radio Unit Software Optimization",
+    description:
+      "Currently developing and optimizing 5G Radio Unit software at Altice Labs. Focus on high-speed data throughput optimization, hardware-software integration in C/C++ on Linux platform. Implemented CI/CD pipeline via Github Actions for product validation and automated testing.",
+    stack: [
+      {
+        name: "5G",
+      },
+      {
+        name: "C/C++",
+      },
+      {
+        name: "Linux",
+      },
+      {
+        name: "GitHub Actions",
+      },
+    ],
+    image: eventManagementSystem,
+    live: "#projects",
+    github: "#projects",
   },
 ];
 
@@ -159,7 +182,7 @@ const Work = () => {
                     </Tooltip>
                   </TooltipProvider>
                 </Link>
-                {/*github button
+                {/*github button*/}
                 <Link href={project.github}>
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
@@ -171,7 +194,7 @@ const Work = () => {
                       </TooltipContent>
                     </Tooltip>
                   </TooltipProvider>
-                </Link>*/}
+                </Link>
               </div>
             </div>
           </div>

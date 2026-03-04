@@ -14,10 +14,10 @@ const Home = () => {
           {/* Text */}
           <div className="text-center xl:text-left order-2 xl:order-none ">
             <h1 className="h1 mb-6">
-              Hello I'm <br /> <span className="text-accent">Miguel</span>
+              Hello I'm <br /> <span className="text-accent">Miguel Barbosa</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              and I'm currently a software developer with a background in eletronics and telecommunications engineering.
+              Embedded Software Engineer specializing in Linux-based systems, IoT (LoRa), and Cloud Infrastructure. Currently optimizing 5G Radio Unit software at Altice Labs while leading digital infrastructure for ESN Portugal.
 
             </p>
             {/* Buttons and socials*/}

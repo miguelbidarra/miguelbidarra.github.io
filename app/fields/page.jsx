@@ -8,23 +8,23 @@ import Link from "next/link";
 const fields = [
   {
     num: "01",
-    title: "Software Engineering",
+    title: "Embedded Systems & IoT",
     description:
-      "Experience in various programming languages, Linux-based systems and networking tools.",
+      "Specialized in LoRa/RF communication, firmware development, and 5G architecture. Experience in designing autonomous systems, mesh networks, and low-power embedded solutions with C/C++ and Linux.",
     href: "/work",
   },
   {
     num: "02",
-    title: "Embedded Systems",
+    title: "Cloud Infrastructure",
     description:
-      "Quick prototyping of IoT devices, from microcontroller programming and PCB design to hardware-software integration.",
+      "Expertise in AWS and Microsoft Azure deployment, containerization with Docker, CI/CD pipeline orchestration, and cost optimization. Managed infrastructure for enterprise-scale applications.",
     href: "/work",
   },
   {
     num: "03",
     title: "Full-Stack Development",
     description:
-      "Architecture and develop small to medium scale web applications.",
+      "End-to-end web application development with React, Node.js, and MongoDB. Agile methodology proficiency with Jira and Git. Proven ability to lead technical teams and deliver production systems.",
     href: "/work",
   },
 ];
